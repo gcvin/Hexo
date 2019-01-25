@@ -37,7 +37,8 @@ npm list -g --depth 0
 
 ### 查看端口占用
 ```
-sudo lsof -i :8080
+netstat -lnp|grep 8080 // centos
+sudo lsof -i :8080 // macos
 sudo kill -9 PID
 ```
 
