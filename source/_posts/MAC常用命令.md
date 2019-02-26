@@ -51,3 +51,13 @@ sudo chmod -R 777 filename
 ```
 sudo /Applications/VMware\ Fusion.app/Contents/Library/vmnet-cli --start
 ```
+
+### 服务器重启
+```
+cd /usr/sbin
+./nginx
+
+service mongod start
+
+ssserver -c /etc/shadowsocks.json -d start 
+```
