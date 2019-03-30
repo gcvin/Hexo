@@ -4,6 +4,11 @@ tags:
   - Testing
 categories: MAC
 ---
+### socket5 代理
+```
+export ALL_PROXY=socks5://127.0.0.1:1080
+```
+
 ### 显示隐藏文件
 ```
 defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder
